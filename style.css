@@ -1,0 +1,59 @@
+body {
+    background-color: aqua;
+   
+}
+
+.outer {
+    background-color: rgb(32, 144, 250);
+    width: 500px;
+    height: 500px;
+    margin: auto ;
+    margin-top: 8%;
+    border: black solid;
+    color:white;   
+    
+   
+   
+    
+}
+
+.numbers {
+    display: flex;
+    flex-wrap: wrap;
+
+    
+    
+    
+  
+}
+
+span {
+    font-size: 60px;
+    flex: 1 0 21%; 
+    text-align: center;
+    border: black solid;      
+
+    
+}
+
+
+span:hover{
+    background-color:rgb(17, 27, 172);
+}
+#resultBox {
+   
+    background-color: rgb(70, 219, 224);
+    font-size: 60px;  
+    
+   
+  
+
+    
+    
+}
+.clearDelete{
+   text-align: center;   
+   display: flex;
+   
+   
+}
